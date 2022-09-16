@@ -12,8 +12,9 @@ body {
   align-items:center;
   background-repeat: no-repeat;
   background-size: cover;
-
+  
 }
+
 
 article {
   width: 1000vw;
@@ -49,6 +50,7 @@ h2 {
 }
 .img {
   border-bottom: #0000f1;
+  
 }
 dl {
   width:100%;
@@ -61,8 +63,8 @@ dl {
     ;
   justify-items:center;
   align-items:start;
-  padding:12rem 0px 13rem 4rem;
-  margin-top: -3rem;
+  padding:4rem 0px 8rem 4rem;
+  margin-top: -2rem;
   margin-bottom: 2rem;
   margin-right: 4rem;
   text-align: center;
@@ -94,6 +96,7 @@ p {
 article > p {
   padding:3rem 2rem;
   margin-top: 0;
+  margin-bottom: 2rem;
   text-align:center;
   border-radius: 0 0 1rem 1rem;
   width:100%;
@@ -123,13 +126,25 @@ body.expand img {
 }
 
 img {
+  animation-duration: 2s;
+  animation-name: slidein;
   width: 30em;
   height: 20em;
   position: right;
   border-radius: 25%
-
+  
 }
 
-ul {
-  list-style-type:;
+
+@keyframes slidein {
+
+  from {
+    margin-left: 50%;
+    width: 200%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
 }
