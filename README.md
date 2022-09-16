@@ -4,4 +4,4 @@ Mijn eerste visitekaartje
 
 
 
-https://oliversipho.github.io/your-tribe-profile-card/
+https://oliversipho.github.io/your-tribe-profile-card/versie2
